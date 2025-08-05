@@ -50,3 +50,12 @@ class Book{
        this.tags=tags
     }
 }
+
+
+const com =book.comment.text = 'hello';
+
+const like = book.engangement.likes +=1;
+
+delete book.tags[0];
+
+const data = JSON.stringify(book);
