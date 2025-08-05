@@ -10,6 +10,6 @@ const todo = {
 }
 
 Object.entries(todo).forEach(([id, todInf])=>{
-    console.log(todoInfo[id].duedate);
-    console.log(todoInfo[id].desc);
+    console.log(todInf[id].duedate);
+    console.log(todInf[id].desc);
 })
